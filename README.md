@@ -20,7 +20,7 @@
     + https://www.codingame.com/replay/419897682
     + https://www.codingame.com/replay/419897641 (example of controlled drifting)
 
-4. Technics
+4. Techniques
 
     - Controlled drifting - During the first lap pod is collecting information about the position of all the checkpoints. From the beginning of the second lap, when all checkpoints are listed, the pod starts driving towards the next checkpoint before reaching the current one if its current speed and angle are enough to make it reach the current checkpoint. This technique helps very much with high speed turns.
     - Measured boost - During the first lap pod is collecting information about the position of all the checkpoints and the pod cannot use its boost. It will become available later after collecting the position of every checkpoint. Then the greatest distance between checkpoint can be measured which the heuristic approach considers the best place to boost.
